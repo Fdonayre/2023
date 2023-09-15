@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'kanit', sans-serif;
+    color: rgb(65, 63, 63);
+}
+header.cabeceraPrincipal{
+    background-color: blue;
+    color: white;
+    width: 90%;
+    margin: 1em 1em 1em 1em;
+}
+.cabeceraPrincipal h1{
+    font-family: sans-serif;
+    padding: 10px 50px;
+}
+nav.menuPrincipal{
+    background-color: aquamarine;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+.sliderPrincipal, .atractivos{
+    text-align: center;
+    margin-top: 2px;
+}
+.card{
+    background-color: white;
+    width: 33%;
+    color: blue;
+    display: inline-block;
+    margin: 20px 0;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: red;
+    }
+    .card{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
